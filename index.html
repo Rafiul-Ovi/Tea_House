@@ -37,9 +37,132 @@
     </style> -->
   </head>
   <body>
-    <header></header>
+    <header class="max-w-screen-xl mx-auto">
+      <div class="md:flex lg:flex justify-between items-center">
+        <!-- text-container -->
+        <div>
+          <h1
+            class="text-3xl font-extrabold text-[#1C1C1C] md:text-5xl lg:text-5xl"
+          >
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-[#777777] text-lg font-medium mt-7">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <button
+            class="py-4 pl-6 pr-8 rounded-xl text-[#FFFFFF] bg-gradient-to-r from-[#FF8938] to-[#FF0000] mt-7"
+          >
+            Explore More
+            <i class="fa-solid fa-arrow-right -rotate-45 text-lg"></i>
+          </button>
+        </div>
+        <!-- image-container -->
+        <div class="relative">
+          <!-- image -->
+          <div>
+            <img src="images/banner.png" alt="" class="w-full" />
+          </div>
+          <!-- card -->
+          <div
+            class="absolute flex items-center bg-[#FFFFFF] shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-60 lg:top-96 md:top-72 left-4 lg:left-20 md:left-16"
+          >
+            <!-- star-icon -->
+            <div>
+              <i class="fa-solid fa-star text-3xl text-amber-500"></i>
+            </div>
+            <!-- text -->
+            <div class="ml-2">
+              <h4 class="lg:text-2xl font-bold">5.00</h4>
+              <p class="text-[#777777] text-lg font-medium">
+                Trust Pilot Ratings
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
-      <p>hi ovi</p>
+      <!-- Featured Products section -->
+      <section class="py-8 md:py-12 lg:py-20 max-w-screen-xl mx-auto">
+        <!-- title -->
+        <div class="text-center">
+          <h3 class="text-[#1C1C1C] text-3xl md:text-5xl lg:text-5xl font-bold">
+            Our Featured Products
+          </h3>
+          <p class="text-[#777777] text-lg font-medium mt-7 mb-12 px-10">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <!-- cards -->
+        <div class="grid lg:grid-cols-4 md:grid-cols-2">
+          <!-- card-1 -->
+          <div class="bg-gradient-to-b from-[#F4F4F4] rounded-xl mx-4 my-5">
+            <!-- image -->
+            <div class="lg:px-24 md:px-36 px-40 py-5">
+              <img src="images/tea-1.png" alt="" />
+            </div>
+            <!-- description -->
+            <div class="text-center">
+              <h5 class="text-[#1C1C1C] text-2xl font-semibold">Milk Tea</h5>
+              <p class="text-[#777777] text-lg font-normal">
+                Creamer could be replaced <br />
+                by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="bg-gradient-to-b from-[#F4F4F4] rounded-xl mx-4 my-5">
+            <!-- image -->
+            <div class="lg:px-24 md:px-36 px-40 py-5">
+              <img src="images/tea-2.png" alt="" />
+            </div>
+            <!-- description -->
+            <div class="text-center">
+              <h5 class="text-[#1C1C1C] text-2xl font-semibold">Black Tea</h5>
+              <p class="text-[#777777] text-lg font-normal">
+                Creamer could be replaced <br />
+                by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="bg-gradient-to-b from-[#F4F4F4] rounded-xl mx-4 my-5">
+            <!-- image -->
+            <div class="lg:px-24 md:px-36 px-40 py-5">
+              <img src="images/tea-3.png" alt="" />
+            </div>
+            <!-- description -->
+            <div class="text-center">
+              <h5 class="text-[#1C1C1C] text-2xl font-semibold">Lemon Tea</h5>
+              <p class="text-[#777777] text-lg font-normal">
+                Creamer could be replaced <br />
+                by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="bg-gradient-to-b from-[#F4F4F4] rounded-xl mx-4 my-5">
+            <!-- image -->
+            <div class="lg:px-24 md:px-36 px-40 py-5">
+              <img src="images/tea-4.png" alt="" />
+            </div>
+            <!-- description -->
+            <div class="text-center">
+              <h5 class="text-[#1C1C1C] text-2xl font-semibold">Green Tea</h5>
+              <p class="text-[#777777] text-lg font-normal">
+                Creamer could be replaced <br />
+                by fresh milk
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
